@@ -1,0 +1,30 @@
+#main_body {
+  // background-color: #f6f9fb;
+
+  padding-left: 240px;
+  transition: 1s;
+  min-height: 100vh;
+
+  // on devices 1300px or larger with 290px
+  @media (min-width: 1500px) {
+    padding-left: 290px;
+    transition: 1s;
+  }
+  // on devices 1300px or smaller with 240px
+  @media (max-width: 1300px) {
+    padding-left: 240px;
+    transition: 1s;
+  }
+  // on devices 1280px or smaller with 75px
+  @media (max-width: 1280px) {
+    padding-left: 75px;
+    transition: 1s;
+  }
+  // on devices 768px or smaller with 0px, display none
+  @media (max-width: 768px) {
+    padding-left: 0px;
+  }
+
+  //? might remove
+  // overflow-y: scroll;
+}
