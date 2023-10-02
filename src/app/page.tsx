@@ -31,7 +31,7 @@ export default function Home() {
             />
           </div>
           <div className="lg:max-w-[370px] md:max-w-[510px] mx-auto relative w-full">
-            <div className="sticky top-10 w-full  xl:space-y-6 space-y-3 ">
+            <div className="sticky top-10 w-full  xl:space-y-6 space-y-3 mt-3 md:mt-0">
               <Recomended />
               <LoginCTA />
             </div>
