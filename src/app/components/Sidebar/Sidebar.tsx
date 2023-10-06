@@ -187,7 +187,7 @@ export default function Sidebar() {
           </li>
           <li>
             <Link
-              href="/"
+              href="/profile"
               className=" hover:bg-slate-100 dark:hover:bg-slate-800"
             >
               <span>
