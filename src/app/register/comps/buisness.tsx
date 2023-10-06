@@ -16,8 +16,8 @@ export default function Buisness() {
           </p>
           <form>
             <div className="space-y-12">
-              <div className="border-b border-gray-900/10 pb-12">
-                <h2 className="text-base font-semibold leading-7 text-gray-900">
+              <div className="border-b border-gray-900/10 dark:border-gray-50/10 pb-12">
+                <h2 className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
                   Basic info
                 </h2>
                 {/* <p className="mt-1 text-sm leading-6 text-gray-600">
@@ -29,7 +29,7 @@ export default function Buisness() {
                   <div className="sm:col-span-3">
                     <label
                       htmlFor="occupatio"
-                      className="block text-sm font-medium leading-6 text-gray-900"
+                      className="block text-sm font-medium leading-6 text-gray-900 dark:text-white"
                     >
                       Occupation
                     </label>
@@ -40,7 +40,7 @@ export default function Buisness() {
                         id="occupatio"
                         placeholder="Barber"
                         autoComplete="given-name"
-                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-transparent "
                       />
                     </div>
                   </div>
@@ -48,7 +48,7 @@ export default function Buisness() {
                     {/* //todo check if user name exist  */}
                     <label
                       htmlFor="username"
-                      className="block text-sm font-medium leading-6 text-gray-900"
+                      className="block text-sm font-medium leading-6 text-gray-900 dark:text-white"
                     >
                       Username
                     </label>
@@ -62,7 +62,7 @@ export default function Buisness() {
                           name="username"
                           id="username"
                           autoComplete="username"
-                          className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                          className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 dark:text-white placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                           placeholder="janesmith"
                         />
                       </div>
@@ -72,7 +72,7 @@ export default function Buisness() {
                   <div className="col-span-full">
                     <label
                       htmlFor="about"
-                      className="block text-sm font-medium leading-6 text-gray-900"
+                      className="block text-sm font-medium leading-6 text-gray-900 dark:text-white"
                     >
                       Bio
                     </label>
@@ -81,11 +81,11 @@ export default function Buisness() {
                         id="about"
                         name="about"
                         rows={3}
-                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-transparent"
                         defaultValue={""}
                       />
                     </div>
-                    <p className="mt-3 text-sm leading-6 text-gray-600">
+                    <p className="mt-3 text-sm leading-6 text-gray-600 dark:text-gray-50">
                       Write a few sentences about yourself. This will appear on
                       your profile page for others to read.
                     </p>
@@ -94,7 +94,7 @@ export default function Buisness() {
                   <div className="col-span-full">
                     <label
                       htmlFor="photo"
-                      className="block text-sm font-medium leading-6 text-gray-900"
+                      className="block text-sm font-medium leading-6 text-gray-900 dark:text-white"
                     >
                       Photo
                     </label>
@@ -114,8 +114,8 @@ export default function Buisness() {
                 </div>
               </div>
 
-              <div className="border-b border-gray-900/10 pb-12">
-                <h2 className="text-base font-semibold leading-7 text-gray-900">
+              <div className=" pb-12">
+                <h2 className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
                   Buisness Information
                 </h2>
                 {/* <p className="mt-1 text-sm leading-6 text-gray-600">
@@ -126,7 +126,7 @@ export default function Buisness() {
                   <div className="sm:col-span-3">
                     <label
                       htmlFor="buissness-name"
-                      className="block text-sm font-medium leading-6 text-gray-900"
+                      className="block text-sm font-medium leading-6 text-gray-900 dark:text-white"
                     >
                       Buisness Name <small>(optional)</small>
                     </label>
@@ -137,14 +137,14 @@ export default function Buisness() {
                         id="buissness-name"
                         placeholder="Tony's Barbershop"
                         autoComplete="given-name"
-                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        className="block w-full rounded-md border-0 py-1.5 dark:text-white text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-transparent"
                       />
                     </div>
                   </div>
                   <div className="sm:col-span-3">
                     <label
                       htmlFor="country"
-                      className="block text-sm font-medium leading-6 text-gray-900"
+                      className="block text-sm font-medium leading-6 text-gray-900 dark:text-white"
                     >
                       Country
                     </label>
@@ -153,7 +153,7 @@ export default function Buisness() {
                         id="country"
                         name="country"
                         autoComplete="country-name"
-                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
+                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6 bg-transparent"
                       >
                         <option>United States</option>
                         <option>Canada</option>
@@ -165,7 +165,7 @@ export default function Buisness() {
                   <div className="col-span-full">
                     <label
                       htmlFor="street-address"
-                      className="block text-sm font-medium leading-6 text-gray-900"
+                      className="block text-sm font-medium leading-6 text-gray-900 dark:text-white"
                     >
                       Street address
                     </label>
@@ -175,7 +175,7 @@ export default function Buisness() {
                         name="street-address"
                         id="street-address"
                         autoComplete="street-address"
-                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-transparent"
                       />
                     </div>
                   </div>
@@ -183,7 +183,7 @@ export default function Buisness() {
                   <div className="sm:col-span-2 sm:col-start-1">
                     <label
                       htmlFor="city"
-                      className="block text-sm font-medium leading-6 text-gray-900"
+                      className="block text-sm font-medium leading-6 text-gray-900 dark:text-white"
                     >
                       City
                     </label>
@@ -193,7 +193,7 @@ export default function Buisness() {
                         name="city"
                         id="city"
                         autoComplete="address-level2"
-                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-transparent"
                       />
                     </div>
                   </div>
@@ -201,7 +201,7 @@ export default function Buisness() {
                   <div className="sm:col-span-2">
                     <label
                       htmlFor="region"
-                      className="block text-sm font-medium leading-6 text-gray-900"
+                      className="block text-sm font-medium leading-6 text-gray-900 dark:text-white"
                     >
                       State / Province
                     </label>
@@ -211,7 +211,7 @@ export default function Buisness() {
                         name="region"
                         id="region"
                         autoComplete="address-level1"
-                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-transparent"
                       />
                     </div>
                   </div>
@@ -219,7 +219,7 @@ export default function Buisness() {
                   <div className="sm:col-span-2">
                     <label
                       htmlFor="postal-code"
-                      className="block text-sm font-medium leading-6 text-gray-900"
+                      className="block text-sm font-medium leading-6 text-gray-900 dark:text-white"
                     >
                       ZIP / Postal code
                     </label>
@@ -229,7 +229,7 @@ export default function Buisness() {
                         name="postal-code"
                         id="postal-code"
                         autoComplete="postal-code"
-                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-transparent"
                       />
                     </div>
                   </div>
@@ -240,7 +240,7 @@ export default function Buisness() {
             <div className="mt-6 flex items-center justify-end gap-x-6">
               <button
                 type="button"
-                className="text-sm font-semibold leading-6 text-gray-900"
+                className="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
               >
                 Cancel
               </button>
