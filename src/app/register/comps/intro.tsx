@@ -14,7 +14,7 @@ export default function Intro({
         <p className=" text-center mb-5 font-light text-gray-500 dark:text-gray-400">
           Before we start, lets get to know you you a bit.
         </p>
-        <div className="survey_options mt-28">
+        <div className="survey_options mt-10">
           <p className="  mb-5 font-light text-gray-500 dark:text-gray-400 dark:text-white">
             What type of user are you?
           </p>
