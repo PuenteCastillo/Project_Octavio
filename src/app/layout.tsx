@@ -6,6 +6,8 @@ import MainLayout from "./components/layouts/MainLayout";
 import Providers from "./providers";
 import ThemeButton from "./components/ThemeButton";
 
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
