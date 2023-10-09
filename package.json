@@ -9,7 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.9",
+    "@fullcalendar/daygrid": "^6.1.9",
+    "@fullcalendar/react": "^6.1.9",
+    "@fullcalendar/timegrid": "^6.1.9",
     "@heroicons/react": "^2.0.18",
+    "@types/fullcalendar": "^3.8.0",
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@types/react-datepicker": "^4.15.1",
